@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Day 1  Advent of Code :: Swayam Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Day 1 There&rsquo;s just one problem: by holding the two lists up side by side (your puzzle input), it quickly becomes clear that the lists aren&rsquo;t very similar. Maybe you can help The Historians reconcile their lists?
+For example:
+3 44 32 51 33 93 3 Maybe the lists are only off by a small amount! To find out, pair up the numbers and measure how far apart they are. Pair up the smallest number in the left list with the smallest number in the right list, then the second-smallest left number with the second-smallest right number, and so on.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="//localhost:1313/posts/day-1--advent-of-code/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/fonts.min.4881f0c525f3ce2a1864fb6e96676396cebe1e6fcef1933e8e1dde7041004fb5.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.min.fe8dc560fccb53a458b0db19ccb7b265764ac46b68596b7e099c6793054dd457.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/terminal.min.dd0bf9c7cacb24c1b0184f52f1869b274e06689557468cc7030ccf632328eb97.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="//localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="Swayam" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Day 1  Advent of Code">
+<meta property="og:description" content="Day 1 There&rsquo;s just one problem: by holding the two lists up side by side (your puzzle input), it quickly becomes clear that the lists aren&rsquo;t very similar. Maybe you can help The Historians reconcile their lists?
+For example:
+3 44 32 51 33 93 3 Maybe the lists are only off by a small amount! To find out, pair up the numbers and measure how far apart they are. Pair up the smallest number in the left list with the smallest number in the right list, then the second-smallest left number with the second-smallest right number, and so on.
+" />
+<meta property="og:url" content="//localhost:1313/posts/day-1--advent-of-code/" />
+<meta property="og:site_name" content="Swayam Blog" />
+
+  <meta property="og:image" content="//localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-12-08 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Swayam
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="//localhost:1313/posts/day-1--advent-of-code/">Day 1  Advent of Code</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-12-08</time><span class="post-author">Swayam</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="//localhost:1313/tags/advent_of_code/">Advent_of_code</a>&nbsp;
+      
+      #<a href="//localhost:1313/tags/code/">code</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="day-1">Day 1<a href="#day-1" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>There&rsquo;s just one problem: by holding the two lists up <em>side by side</em> (your puzzle input), it quickly becomes clear that the lists aren&rsquo;t very similar. Maybe you can help The Historians reconcile their lists?</p>
+<p>For example:</p>
+<pre tabindex="0"><code>3   4
+4   3
+2   5
+1   3
+3   9
+3   3
+</code></pre><p>Maybe the lists are only off by a small amount! To find out, pair up the numbers and measure how far apart they are. Pair up the <em>smallest number in the left list</em> with the <em>smallest number in the right list</em>, then the <em>second-smallest left number</em> with the <em>second-smallest right number</em>, and so on.</p>
+<p>Within each pair, figure out <em>how far apart</em> the two numbers are; you&rsquo;ll need to <em>add up all of those distances</em>. For example, if you pair up a <code>3</code> from the left list with a <code>7</code> from the right list, the distance apart is <code>4</code>; if you pair up a <code>9</code> with a <code>3</code>, the distance apart is <code>6</code>.</p>
+<p>In the example list above, the pairs and distances would be as follows:</p>
+<ul>
+<li>The smallest number in the left list is <code>1</code>, and the smallest number in the right list is <code>3</code>. The distance between them is <code>2</code>.</li>
+<li>The second-smallest number in the left list is <code>2</code>, and the second-smallest number in the right list is another <code>3</code>. The distance between them is <code>1</code>.</li>
+<li>The third-smallest number in both lists is <code>3</code>, so the distance between them is <code>0</code>.</li>
+<li>The next numbers to pair up are <code>3</code> and <code>4</code>, a distance of <code>1</code>.</li>
+<li>The fifth-smallest numbers in each list are <code>3</code> and <code>5</code>, a distance of <code>2</code>.</li>
+<li>Finally, the largest number in the left list is <code>4</code>, while the largest number in the right list is <code>9</code>; these are a distance <code>5</code> apart.</li>
+</ul>
+<p>To find the <em>total distance</em> between the left list and the right list, add up the distances between all of the pairs you found. In the example above, this is <code>2 + 1 + 0 + 1 + 2 + 5</code>, a total distance of <code>11</code>!</p>
+<h2 id="here-is-the--coded-solution-for-the-puzzle">Here is the  coded solution for the Puzzle<a href="#here-is-the--coded-solution-for-the-puzzle" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>l:list[tuple[str, str]]<span style="color:#f92672">=</span>[(<span style="color:#e6db74">&#39;38665&#39;</span>,   <span style="color:#e6db74">&#39;13337&#39;</span>),
+</span></span><span style="display:flex;"><span>(<span style="color:#e6db74">&#39;84587&#39;</span>,   <span style="color:#e6db74">&#39;21418&#39;</span>),
+</span></span><span style="display:flex;"><span>(<span style="color:#e6db74">&#39;93374&#39;</span>,   <span style="color:#e6db74">&#39;50722&#39;</span>),
+</span></span><span style="display:flex;"><span>(<span style="color:#e6db74">&#39;68298&#39;</span>,   <span style="color:#e6db74">&#39;57474&#39;</span>),
+</span></span><span style="display:flex;"><span>(<span style="color:#e6db74">&#39;54771&#39;</span>,   <span style="color:#e6db74">&#39;18244&#39;</span>),
+</span></span><span style="display:flex;"><span>(<span style="color:#e6db74">&#39;49242&#39;</span>,   <span style="color:#e6db74">&#39;83955&#39;</span>),
+</span></span><span style="display:flex;"><span>(<span style="color:#e6db74">&#39;66490&#39;</span>,   <span style="color:#e6db74">&#39;44116&#39;</span>),
+</span></span><span style="display:flex;"><span>(<span style="color:#e6db74">&#39;65908&#39;</span>,   <span style="color:#e6db74">&#39;51323&#39;</span>),
+</span></span><span style="display:flex;"><span>(<span style="color:#e6db74">&#39;71704&#39;</span>,   <span style="color:#e6db74">&#39;87343&#39;</span>),
+</span></span><span style="display:flex;"><span>(<span style="color:#e6db74">&#39;38086&#39;</span>,   <span style="color:#e6db74">&#39;70349&#39;</span>),
+</span></span><span style="display:flex;"><span>(<span style="color:#e6db74">&#39;14187&#39;</span>,   <span style="color:#e6db74">&#39;91077&#39;</span>)]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>l1:list[str]<span style="color:#f92672">=</span>[]
+</span></span><span style="display:flex;"><span>l2:list[str]<span style="color:#f92672">=</span>[]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> k,m 
+</span></span><span style="display:flex;"><span>    l1<span style="color:#f92672">.</span>append(k)
+</span></span><span style="display:flex;"><span>    l2<span style="color:#f92672">.</span>append(m)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">calculate_differences</span>(list1, list2) <span style="color:#f92672">-&gt;</span> list[int]:
+</span></span><span style="display:flex;"><span>    int_list1: list[int] <span style="color:#f92672">=</span> sorted([int(x) <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> list1])
+</span></span><span style="display:flex;"><span>    int_list2: list[int] <span style="color:#f92672">=</span> sorted([int(x) <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> list2])
+</span></span><span style="display:flex;"><span>    differences: list[int] <span style="color:#f92672">=</span> [i<span style="color:#f92672">*</span>int_list2<span style="color:#f92672">.</span>count(i) <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> int_list1]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> differences
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>print(sum(calculate_differences(l1,l2)))
+</span></span></code></pre></div>
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="//localhost:1313/posts/advent-of-code/" class="button inline prev">
+        Advent of Code
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="//localhost:1313/posts/my-first-blog/" class="button inline next">
+        My First blog
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

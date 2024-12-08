@@ -2,17 +2,96 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Swayam Blog</title>
-    <link>/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Swayam Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Code</title>
+      <link>//localhost:1313/posts/advent-of-code/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/advent-of-code/</guid>
+      <description>&lt;h1 id=&#34;hi-lets-start-advent-of-code&#34;&gt;Hi lets start Advent of code&lt;/h1&gt;</description>
+      <content>&lt;h1 id=&#34;hi-lets-start-advent-of-code&#34;&gt;Hi lets start Advent of code&lt;/h1&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Day 1  Advent of Code</title>
+      <link>//localhost:1313/posts/day-1--advent-of-code/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/day-1--advent-of-code/</guid>
+      <description>&lt;h1 id=&#34;day-1&#34;&gt;Day 1&lt;/h1&gt;
+&lt;p&gt;There&amp;rsquo;s just one problem: by holding the two lists up &lt;em&gt;side by side&lt;/em&gt; (your puzzle input), it quickly becomes clear that the lists aren&amp;rsquo;t very similar. Maybe you can help The Historians reconcile their lists?&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;3   4
+4   3
+2   5
+1   3
+3   9
+3   3
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Maybe the lists are only off by a small amount! To find out, pair up the numbers and measure how far apart they are. Pair up the &lt;em&gt;smallest number in the left list&lt;/em&gt; with the &lt;em&gt;smallest number in the right list&lt;/em&gt;, then the &lt;em&gt;second-smallest left number&lt;/em&gt; with the &lt;em&gt;second-smallest right number&lt;/em&gt;, and so on.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;day-1&#34;&gt;Day 1&lt;/h1&gt;
+&lt;p&gt;There&amp;rsquo;s just one problem: by holding the two lists up &lt;em&gt;side by side&lt;/em&gt; (your puzzle input), it quickly becomes clear that the lists aren&amp;rsquo;t very similar. Maybe you can help The Historians reconcile their lists?&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;3   4
+4   3
+2   5
+1   3
+3   9
+3   3
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Maybe the lists are only off by a small amount! To find out, pair up the numbers and measure how far apart they are. Pair up the &lt;em&gt;smallest number in the left list&lt;/em&gt; with the &lt;em&gt;smallest number in the right list&lt;/em&gt;, then the &lt;em&gt;second-smallest left number&lt;/em&gt; with the &lt;em&gt;second-smallest right number&lt;/em&gt;, and so on.&lt;/p&gt;
+&lt;p&gt;Within each pair, figure out &lt;em&gt;how far apart&lt;/em&gt; the two numbers are; you&amp;rsquo;ll need to &lt;em&gt;add up all of those distances&lt;/em&gt;. For example, if you pair up a &lt;code&gt;3&lt;/code&gt; from the left list with a &lt;code&gt;7&lt;/code&gt; from the right list, the distance apart is &lt;code&gt;4&lt;/code&gt;; if you pair up a &lt;code&gt;9&lt;/code&gt; with a &lt;code&gt;3&lt;/code&gt;, the distance apart is &lt;code&gt;6&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In the example list above, the pairs and distances would be as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The smallest number in the left list is &lt;code&gt;1&lt;/code&gt;, and the smallest number in the right list is &lt;code&gt;3&lt;/code&gt;. The distance between them is &lt;code&gt;2&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The second-smallest number in the left list is &lt;code&gt;2&lt;/code&gt;, and the second-smallest number in the right list is another &lt;code&gt;3&lt;/code&gt;. The distance between them is &lt;code&gt;1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The third-smallest number in both lists is &lt;code&gt;3&lt;/code&gt;, so the distance between them is &lt;code&gt;0&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The next numbers to pair up are &lt;code&gt;3&lt;/code&gt; and &lt;code&gt;4&lt;/code&gt;, a distance of &lt;code&gt;1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The fifth-smallest numbers in each list are &lt;code&gt;3&lt;/code&gt; and &lt;code&gt;5&lt;/code&gt;, a distance of &lt;code&gt;2&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Finally, the largest number in the left list is &lt;code&gt;4&lt;/code&gt;, while the largest number in the right list is &lt;code&gt;9&lt;/code&gt;; these are a distance &lt;code&gt;5&lt;/code&gt; apart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To find the &lt;em&gt;total distance&lt;/em&gt; between the left list and the right list, add up the distances between all of the pairs you found. In the example above, this is &lt;code&gt;2 + 1 + 0 + 1 + 2 + 5&lt;/code&gt;, a total distance of &lt;code&gt;11&lt;/code&gt;!&lt;/p&gt;
+&lt;h2 id=&#34;here-is-the--coded-solution-for-the-puzzle&#34;&gt;Here is the  coded solution for the Puzzle&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;l:list[tuple[str, str]]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;[(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;38665&amp;#39;&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;13337&amp;#39;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;84587&amp;#39;&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;21418&amp;#39;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;93374&amp;#39;&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;50722&amp;#39;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;68298&amp;#39;&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;57474&amp;#39;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;54771&amp;#39;&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;18244&amp;#39;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;49242&amp;#39;&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;83955&amp;#39;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;66490&amp;#39;&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;44116&amp;#39;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;65908&amp;#39;&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;51323&amp;#39;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;71704&amp;#39;&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;87343&amp;#39;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;38086&amp;#39;&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;70349&amp;#39;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;14187&amp;#39;&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;91077&amp;#39;&lt;/span&gt;)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;l1:list[str]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;[]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;l2:list[str]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;[]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; k,m 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    l1&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(k)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    l2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(m)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;calculate_differences&lt;/span&gt;(list1, list2) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; list[int]:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    int_list1: list[int] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; sorted([int(x) &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; list1])
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    int_list2: list[int] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; sorted([int(x) &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; list2])
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    differences: list[int] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [i&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;int_list2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;count(i) &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; int_list1]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; differences
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(sum(calculate_differences(l1,l2)))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
     <item>
       <title>My First blog</title>
-      <link>/posts/my-first-blog/</link>
+      <link>//localhost:1313/posts/my-first-blog/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/my-first-blog/</guid>
+      <guid>//localhost:1313/posts/my-first-blog/</guid>
       <description>&lt;h2 id=&#34;this-is-my-first-blog-to-help-me--log-my-life-throughout-my-college-life&#34;&gt;This is my First blog to help me  log my life throughout my college life&lt;/h2&gt;
 &lt;h2 id=&#34;so-lets-being&#34;&gt;So lets being&lt;/h2&gt;</description>
       <content>&lt;h2 id=&#34;this-is-my-first-blog-to-help-me--log-my-life-throughout-my-college-life&#34;&gt;This is my First blog to help me  log my life throughout my college life&lt;/h2&gt;
