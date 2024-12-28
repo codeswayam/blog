@@ -6,13 +6,13 @@
     <description>Recent content in Tags on Swayam Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Code</title>
-      <link>/tags/code/</link>
-      <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
+      <title>Cyber</title>
+      <link>/tags/cyber/</link>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/tags/code/</guid>
+      <guid>/tags/cyber/</guid>
       <description></description>
       <content></content>
     </item>
@@ -23,6 +23,16 @@
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>/tags/advent_of_code/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>/tags/code/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/code/</guid>
       <description></description>
       <content></content>
     </item>
