@@ -2,17 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swayam Blog</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Swayam Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cyber Security</title>
-      <link>/posts/cyber-security/cyber-security/</link>
+      <link>//localhost:1313/cyber-security/cyber-security/</link>
       <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/cyber-security/cyber-security/</guid>
+      <guid>//localhost:1313/cyber-security/cyber-security/</guid>
+      <description>&lt;h1 id=&#34;hi-guys-lets-start-our-cyber-security-journey-is-from-today&#34;&gt;Hi guys lets Start our cyber security journey is From today&lt;/h1&gt;
+&lt;h3 id=&#34;in-this-journey-we-are-going-to-learn-about-the-fundamentals-of-cyber-security&#34;&gt;In this Journey we are going to learn about the fundamentals of cyber security&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Programming for Cybersecurity&lt;/li&gt;
+&lt;li&gt;Cybersecurity Basics&lt;/li&gt;
+&lt;li&gt;Networking Fundamentals&lt;/li&gt;
+&lt;li&gt;Operating Systems Security&lt;/li&gt;
+&lt;li&gt;Cryptography&lt;/li&gt;
+&lt;li&gt;Penetration Testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;i-am-thing-of-starting-form-c-and-c-as-they-are-low-level-languages-and-help-me-with-my-college-also-and-in-cyberspace-also&#34;&gt;I am thing of starting form c and c++ as they are low level languages and help me with my college also and in cyberspace also.&lt;/h3&gt;
+&lt;h2 id=&#34;i-am-thing-of-complete-the-basic-in-12-months-so--that-i-can-get-some-internship-and-grow-my--self&#34;&gt;I am thing of complete the basic in 12 Months so  that i can get some internship and grow my  self.&lt;/h2&gt;
+&lt;h2 id=&#34;lets-start-this-journey-of-mine-form-1-jan-2025-this-is-my-new-year-resolution-that-i-will-cyber-security-internship-by-the-end-of-this-year&#34;&gt;Lets start this Journey of mine form 1 Jan 2025 This is my new Year Resolution that I will Cyber Security internship by the end of this year.&lt;/h2&gt;
+&lt;h2 id=&#34;i-am--think-of-posting-my-work-weekly-here-as-i-know-no-body-is-reading-this-this-but-it-helps-me-feel-motivated-to-do-the-work&#34;&gt;I am  think of Posting my work weekly here as i know no body is reading this this but it helps me feel motivated to do the work&lt;/h2&gt;
+&lt;h2 id=&#34;thanks&#34;&gt;Thanks&lt;/h2&gt;</description>
+      <content>&lt;h1 id=&#34;hi-guys-lets-start-our-cyber-security-journey-is-from-today&#34;&gt;Hi guys lets Start our cyber security journey is From today&lt;/h1&gt;
+&lt;h3 id=&#34;in-this-journey-we-are-going-to-learn-about-the-fundamentals-of-cyber-security&#34;&gt;In this Journey we are going to learn about the fundamentals of cyber security&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Programming for Cybersecurity&lt;/li&gt;
+&lt;li&gt;Cybersecurity Basics&lt;/li&gt;
+&lt;li&gt;Networking Fundamentals&lt;/li&gt;
+&lt;li&gt;Operating Systems Security&lt;/li&gt;
+&lt;li&gt;Cryptography&lt;/li&gt;
+&lt;li&gt;Penetration Testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;i-am-thing-of-starting-form-c-and-c-as-they-are-low-level-languages-and-help-me-with-my-college-also-and-in-cyberspace-also&#34;&gt;I am thing of starting form c and c++ as they are low level languages and help me with my college also and in cyberspace also.&lt;/h3&gt;
+&lt;h2 id=&#34;i-am-thing-of-complete-the-basic-in-12-months-so--that-i-can-get-some-internship-and-grow-my--self&#34;&gt;I am thing of complete the basic in 12 Months so  that i can get some internship and grow my  self.&lt;/h2&gt;
+&lt;h2 id=&#34;lets-start-this-journey-of-mine-form-1-jan-2025-this-is-my-new-year-resolution-that-i-will-cyber-security-internship-by-the-end-of-this-year&#34;&gt;Lets start this Journey of mine form 1 Jan 2025 This is my new Year Resolution that I will Cyber Security internship by the end of this year.&lt;/h2&gt;
+&lt;h2 id=&#34;i-am--think-of-posting-my-work-weekly-here-as-i-know-no-body-is-reading-this-this-but-it-helps-me-feel-motivated-to-do-the-work&#34;&gt;I am  think of Posting my work weekly here as i know no body is reading this this but it helps me feel motivated to do the work&lt;/h2&gt;
+&lt;h2 id=&#34;thanks&#34;&gt;Thanks&lt;/h2&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Cyber Security</title>
+      <link>//localhost:1313/posts/cyber-security/cyber-security/</link>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/cyber-security/cyber-security/</guid>
       <description>&lt;h1 id=&#34;hi-guys-lets-start-our-cyber-security-journey-is-from-today&#34;&gt;Hi guys lets Start our cyber security journey is From today&lt;/h1&gt;
 &lt;h3 id=&#34;in-this-journey-we-are-going-to-learn-about-the-fundamentals-of-cyber-security&#34;&gt;In this Journey we are going to learn about the fundamentals of cyber security&lt;/h3&gt;
 &lt;ul&gt;
@@ -48,10 +87,10 @@
     
     <item>
       <title>Day 2 Advent of Code</title>
-      <link>/posts/day-2-advent-of-code/</link>
+      <link>//localhost:1313/posts/day-2-advent-of-code/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/day-2-advent-of-code/</guid>
+      <guid>//localhost:1313/posts/day-2-advent-of-code/</guid>
       <description>&lt;h1 id=&#34;day-2-red-nosed-reports&#34;&gt;Day 2: Red-Nosed Reports&lt;/h1&gt;
 &lt;p&gt;The unusual data consists of many &lt;em&gt;reports&lt;/em&gt;, one report per line. Each report is a list of numbers called &lt;em&gt;levels&lt;/em&gt; that are separated by spaces. For example:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;7 6 4 2 1
@@ -120,10 +159,10 @@
     
     <item>
       <title>Advent of Code</title>
-      <link>/posts/advent-of-code/</link>
+      <link>//localhost:1313/posts/advent-of-code/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/advent-of-code/</guid>
+      <guid>//localhost:1313/posts/advent-of-code/</guid>
       <description>&lt;h1 id=&#34;hi-lets-start-advent-of-code&#34;&gt;Hi lets start Advent of code&lt;/h1&gt;</description>
       <content>&lt;h1 id=&#34;hi-lets-start-advent-of-code&#34;&gt;Hi lets start Advent of code&lt;/h1&gt;
 </content>
@@ -131,10 +170,10 @@
     
     <item>
       <title>Day 1 Advent of Code</title>
-      <link>/posts/day-1-advent-of-code/</link>
+      <link>//localhost:1313/posts/day-1-advent-of-code/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/day-1-advent-of-code/</guid>
+      <guid>//localhost:1313/posts/day-1-advent-of-code/</guid>
       <description>&lt;h1 id=&#34;day-1&#34;&gt;Day 1&lt;/h1&gt;
 &lt;p&gt;There&amp;rsquo;s just one problem: by holding the two lists up &lt;em&gt;side by side&lt;/em&gt; (your puzzle input), it quickly becomes clear that the lists aren&amp;rsquo;t very similar. Maybe you can help The Historians reconcile their lists?&lt;/p&gt;
 &lt;p&gt;For example:&lt;/p&gt;
@@ -199,10 +238,10 @@
     
     <item>
       <title>My First blog</title>
-      <link>/posts/my-first-blog/</link>
+      <link>//localhost:1313/posts/my-first-blog/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/my-first-blog/</guid>
+      <guid>//localhost:1313/posts/my-first-blog/</guid>
       <description>&lt;h2 id=&#34;this-is-my-first-blog-to-help-me--log-my-life-throughout-my-college-life&#34;&gt;This is my First blog to help me  log my life throughout my college life&lt;/h2&gt;
 &lt;h2 id=&#34;so-lets-being&#34;&gt;So lets being&lt;/h2&gt;</description>
       <content>&lt;h2 id=&#34;this-is-my-first-blog-to-help-me--log-my-life-throughout-my-college-life&#34;&gt;This is my First blog to help me  log my life throughout my college life&lt;/h2&gt;
@@ -212,10 +251,10 @@
     
     <item>
       <title>About Me</title>
-      <link>/about/</link>
+      <link>//localhost:1313/about/</link>
       <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>//localhost:1313/about/</guid>
       <description>&lt;p&gt;&lt;em&gt;Hi, I&amp;rsquo;m Swayam&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Welcome to my little corner of the internet! I’m a passionate learner and creator with a love for all things science, technology, and creativity. From exploring the mysteries of &lt;strong&gt;astrophysics&lt;/strong&gt; to diving into the logic of &lt;strong&gt;mathematics&lt;/strong&gt; and &lt;strong&gt;robotics&lt;/strong&gt;, I’m captivated by how the universe works and how we can shape it through innovation.&lt;/p&gt;
 &lt;p&gt;As a developer, I enjoy &lt;strong&gt;programming&lt;/strong&gt; and building applications. Currently, I’m developing a project that combines &lt;strong&gt;Flask&lt;/strong&gt; for backend development with &lt;strong&gt;React&lt;/strong&gt; on the frontend, bridging technology and user experience seamlessly.&lt;/p&gt;</description>
