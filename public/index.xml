@@ -6,7 +6,131 @@
     <description>Recent content on Swayam Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSA</title>
+      <link>/posts/dsa/</link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/dsa/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Arrays&lt;/strong&gt;: Linear data structure with a fixed size, allowing random access to elements.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Best for: Static datasets with frequent element access.&lt;/li&gt;
+&lt;li&gt;Complexity:
+&lt;ul&gt;
+&lt;li&gt;Access: O(1)O(1)O(1)&lt;/li&gt;
+&lt;li&gt;Search: O(n)O(n)O(n)&lt;/li&gt;
+&lt;li&gt;Insertion/Deletion: O(n)O(n)O(n)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Linked Lists&lt;/strong&gt;: Linear structure of nodes, where each node points to the next.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Types: Singly, Doubly, Circular.&lt;/li&gt;
+&lt;li&gt;Best for: Dynamic datasets with frequent insertions/deletions.&lt;/li&gt;
+&lt;li&gt;Complexity:
+&lt;ul&gt;
+&lt;li&gt;Access/Search: O(n)O(n)O(n)&lt;/li&gt;
+&lt;li&gt;Insertion/Deletion: O(1)O(1)O(1) (at head/tail with pointer)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HashMaps (or Hash Tables)&lt;/strong&gt;: Key-value pair storage with a hash function.&lt;/p&gt;</description>
+      <content>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Arrays&lt;/strong&gt;: Linear data structure with a fixed size, allowing random access to elements.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Best for: Static datasets with frequent element access.&lt;/li&gt;
+&lt;li&gt;Complexity:
+&lt;ul&gt;
+&lt;li&gt;Access: O(1)O(1)O(1)&lt;/li&gt;
+&lt;li&gt;Search: O(n)O(n)O(n)&lt;/li&gt;
+&lt;li&gt;Insertion/Deletion: O(n)O(n)O(n)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Linked Lists&lt;/strong&gt;: Linear structure of nodes, where each node points to the next.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Types: Singly, Doubly, Circular.&lt;/li&gt;
+&lt;li&gt;Best for: Dynamic datasets with frequent insertions/deletions.&lt;/li&gt;
+&lt;li&gt;Complexity:
+&lt;ul&gt;
+&lt;li&gt;Access/Search: O(n)O(n)O(n)&lt;/li&gt;
+&lt;li&gt;Insertion/Deletion: O(1)O(1)O(1) (at head/tail with pointer)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HashMaps (or Hash Tables)&lt;/strong&gt;: Key-value pair storage with a hash function.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Best for: Quick lookup and insertion.&lt;/li&gt;
+&lt;li&gt;Complexity:
+&lt;ul&gt;
+&lt;li&gt;Average: O(1)O(1)O(1)&lt;/li&gt;
+&lt;li&gt;Worst-case: O(n)O(n)O(n) (due to hash collisions)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Stacks&lt;/strong&gt;: LIFO (Last In, First Out) structure.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Operations: Push, Pop, Peek.&lt;/li&gt;
+&lt;li&gt;Best for: Recursive problems, expression evaluation.&lt;/li&gt;
+&lt;li&gt;Complexity:
+&lt;ul&gt;
+&lt;li&gt;Push/Pop/Peek: O(1)O(1)O(1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Queues&lt;/strong&gt;: FIFO (First In, First Out) structure.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Variants: Circular Queue, Deque, Priority Queue.&lt;/li&gt;
+&lt;li&gt;Best for: Scheduling, buffering.&lt;/li&gt;
+&lt;li&gt;Complexity:
+&lt;ul&gt;
+&lt;li&gt;Enqueue/Dequeue: O(1)O(1)O(1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Trees&lt;/strong&gt;: Hierarchical structure with nodes (root, parent, children).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Types: Binary, Binary Search Tree (BST), AVL, Red-Black, etc.&lt;/li&gt;
+&lt;li&gt;Best for: Hierarchical data, searching/sorting.&lt;/li&gt;
+&lt;li&gt;Complexity:
+&lt;ul&gt;
+&lt;li&gt;Search/Insert/Delete: O(h)O(h)O(h), where hhh is the tree height.&lt;/li&gt;
+&lt;li&gt;Balanced trees maintain h=O(log⁡n)h = O(\log n)h=O(logn).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Graphs&lt;/strong&gt;: Collection of nodes (vertices) connected by edges.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Types: Directed, Undirected, Weighted, Unweighted.&lt;/li&gt;
+&lt;li&gt;Representation: Adjacency Matrix/List.&lt;/li&gt;
+&lt;li&gt;Best for: Network problems, pathfinding.&lt;/li&gt;
+&lt;li&gt;Algorithms: DFS, BFS, Dijkstra’s, Prim’s, Kruskal’s.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
     <item>
       <title>Network</title>
       <link>/posts/cyber-security/network/</link>
@@ -77,7 +201,7 @@ Multipoint networks&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Internet layer.&lt;/strong&gt; The internet layer is responsible for logical addressing, routing and packet forwarding. It primarily relies on the IP protocol and the Internet Control Message Protocol (ICMP), which manages addressing and routing of packets across different networks.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;**Transport layer. The TCP/IP transport layer enables data transfer between upper and lower layers of the network. Using TCP and UDP protocols, it also provides mechanisms for error checking and flow control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Transport layer.&lt;/strong&gt; The TCP/IP transport layer enables data transfer between upper and lower layers of the network. Using TCP and UDP protocols, it also provides mechanisms for error checking and flow control.&lt;/p&gt;
 &lt;p&gt;TCP is a connection-based protocol that is generally slower but more reliable than UDP. UDP is a connectionless protocol that is faster than TCP but does not provide guaranteed transfer. UDP protocols facilitate packet transmission for time-sensitive apps (such as video streaming and gaming platforms) and DNS lookups.**&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -159,10 +283,10 @@ Multipoint networks&lt;/p&gt;
     
     <item>
       <title>Day 2 Advent of Code</title>
-      <link>/posts/day-2-advent-of-code/</link>
+      <link>/posts/advent-of-code/day-2-advent-of-code/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/day-2-advent-of-code/</guid>
+      <guid>/posts/advent-of-code/day-2-advent-of-code/</guid>
       <description>&lt;h1 id=&#34;day-2-red-nosed-reports&#34;&gt;Day 2: Red-Nosed Reports&lt;/h1&gt;
 &lt;p&gt;The unusual data consists of many &lt;em&gt;reports&lt;/em&gt;, one report per line. Each report is a list of numbers called &lt;em&gt;levels&lt;/em&gt; that are separated by spaces. For example:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;7 6 4 2 1
@@ -230,22 +354,11 @@ Multipoint networks&lt;/p&gt;
     </item>
     
     <item>
-      <title>Advent of Code</title>
-      <link>/posts/advent-of-code/</link>
-      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/advent-of-code/</guid>
-      <description>&lt;h1 id=&#34;hi-lets-start-advent-of-code&#34;&gt;Hi lets start Advent of code&lt;/h1&gt;</description>
-      <content>&lt;h1 id=&#34;hi-lets-start-advent-of-code&#34;&gt;Hi lets start Advent of code&lt;/h1&gt;
-</content>
-    </item>
-    
-    <item>
       <title>Day 1 Advent of Code</title>
-      <link>/posts/day-1-advent-of-code/</link>
+      <link>/posts/advent-of-code/day-1-advent-of-code/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/day-1-advent-of-code/</guid>
+      <guid>/posts/advent-of-code/day-1-advent-of-code/</guid>
       <description>&lt;h1 id=&#34;day-1&#34;&gt;Day 1&lt;/h1&gt;
 &lt;p&gt;There&amp;rsquo;s just one problem: by holding the two lists up &lt;em&gt;side by side&lt;/em&gt; (your puzzle input), it quickly becomes clear that the lists aren&amp;rsquo;t very similar. Maybe you can help The Historians reconcile their lists?&lt;/p&gt;
 &lt;p&gt;For example:&lt;/p&gt;

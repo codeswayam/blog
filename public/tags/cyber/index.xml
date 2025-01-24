@@ -77,7 +77,7 @@ Multipoint networks&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Internet layer.&lt;/strong&gt; The internet layer is responsible for logical addressing, routing and packet forwarding. It primarily relies on the IP protocol and the Internet Control Message Protocol (ICMP), which manages addressing and routing of packets across different networks.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;**Transport layer. The TCP/IP transport layer enables data transfer between upper and lower layers of the network. Using TCP and UDP protocols, it also provides mechanisms for error checking and flow control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Transport layer.&lt;/strong&gt; The TCP/IP transport layer enables data transfer between upper and lower layers of the network. Using TCP and UDP protocols, it also provides mechanisms for error checking and flow control.&lt;/p&gt;
 &lt;p&gt;TCP is a connection-based protocol that is generally slower but more reliable than UDP. UDP is a connectionless protocol that is faster than TCP but does not provide guaranteed transfer. UDP protocols facilitate packet transmission for time-sensitive apps (such as video streaming and gaming platforms) and DNS lookups.**&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
