@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.139.4">
+	<meta name="generator" content="Hugo 0.142.0">
   
     <title>Swayam Blog</title>
   
@@ -135,6 +135,10 @@
           <li><a href="/posts/cyber-security/">Cyber Security</a></li>
         
       
+        
+          <li><a href="/posts/dsa/">DSA</a></li>
+        
+      
       
     </ul>
   </li>
@@ -154,6 +158,10 @@
       
         
           <li><a href="/posts/cyber-security/" >Cyber Security</a></li>
+        
+      
+        
+          <li><a href="/posts/dsa/" >DSA</a></li>
         
       
       
@@ -181,7 +189,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/dsa/">DSA</a>
+          <a href="/posts/dsa/basic-overview-of-dsa/">Basic Overview of DSA</a>
         </h2>
 
         <div class="post-meta"><time class="post-date">2025-01-05</time><span class="post-author">Swayam</span></div>
@@ -208,9 +216,10 @@
 <li>Best for: Static datasets with frequent element access.</li>
 <li>Complexity:
 <ul>
-<li>Access: O(1)O(1)O(1)</li>
-<li>Search: O(n)O(n)O(n)</li>
-<li>Insertion/Deletion: O(n)O(n)O(n)</li>
+<li>Access: O(1)</li>
+<li>Search: O(n)</li>
+<li>Insertion/Deletion: O(n)
+<a href="/posts/dsa/array/">Array</a></li>
 </ul>
 </li>
 </ul>
@@ -222,20 +231,207 @@
 <li>Best for: Dynamic datasets with frequent insertions/deletions.</li>
 <li>Complexity:
 <ul>
-<li>Access/Search: O(n)O(n)O(n)</li>
-<li>Insertion/Deletion: O(1)O(1)O(1) (at head/tail with pointer)</li>
+<li>Access/Search: O(n)</li>
+<li>Insertion/Deletion: O(1) (at head/tail with pointer)</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>
-<p><strong>HashMaps (or Hash Tables)</strong>: Key-value pair storage with a hash function.</p>
+<p><strong>Hash Maps (or Hash Tables)</strong>: Key-value pair storage with a hash function.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/dsa/">Read more</a>
+            <a class="read-more button inline" href="/posts/dsa/basic-overview-of-dsa/">Read more</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/dsa/array/">Array</a>
+        </h2>
+
+        <div class="post-meta"><time class="post-date">2025-02-01</time><span class="post-author">Swayam</span></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/dsa/">DSA</a>&nbsp;
+            
+            #<a href="/tags/array/">array</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h2 id="sort">Sort</h2>
+<h3 id="1-comparison-based-sorting"><strong>1. Comparison-Based Sorting</strong></h3>
+<p>These algorithms compare elements to determine their order.</p>
+<h4 id="a-bubble-sort"><strong>a. Bubble Sort</strong></h4>
+<ul>
+<li>Repeatedly swaps adjacent elements if they are in the wrong order.</li>
+<li>Time Complexity: <strong>O(n²)</strong></li>
+<li>Space Complexity: <strong>O(1)</strong></li>
+</ul>
+<h4 id="b-selection-sort"><strong>b. Selection Sort</strong></h4>
+<ul>
+<li>Finds the smallest element and places it in the correct position.</li>
+<li>Time Complexity: <strong>O(n²)</strong></li>
+<li>Space Complexity: <strong>O(1)</strong></li>
+</ul>
+<h4 id="c-insertion-sort"><strong>c. Insertion Sort</strong></h4>
+<ul>
+<li>Picks one element at a time and places it in its correct position.</li>
+<li>Time Complexity: <strong>O(n²)</strong></li>
+<li>Space Complexity: <strong>O(1)</strong></li>
+<li>Efficient for small or nearly sorted data.</li>
+</ul>
+<h4 id="d-merge-sort-divide-and-conquer"><strong>d. Merge Sort</strong> (Divide and Conquer)</h4>
+<ul>
+<li>Divides the array into halves, sorts them, and merges them.</li>
+<li>Time Complexity: <strong>O(n log n)</strong></li>
+<li>Space Complexity: <strong>O(n)</strong></li>
+</ul>
+<h4 id="e-quick-sort-divide-and-conquer"><strong>e. Quick Sort</strong> (Divide and Conquer)</h4>
+<ul>
+<li>Picks a pivot, partitions the array, and sorts recursively.</li>
+<li>Time Complexity: <strong>O(n log n)</strong> (Best &amp; Avg), <strong>O(n²)</strong> (Worst)</li>
+<li>Space Complexity: <strong>O(log n)</strong> (due to recursion)</li>
+</ul>
+<h4 id="f-heap-sort"><strong>f. Heap Sort</strong></h4>
+<ul>
+<li>Converts the array into a heap and extracts elements in order.</li>
+<li>Time Complexity: <strong>O(n log n)</strong></li>
+<li>Space Complexity: <strong>O(1)</strong></li>
+</ul>
+<h4 id="g-shell-sort"><strong>g. Shell Sort</strong></h4>
+<ul>
+<li>Variation of insertion sort that sorts elements at a gap.</li>
+<li>Time Complexity: <strong>O(n log n)</strong> (Best), <strong>O(n²)</strong> (Worst)</li>
+<li>Space Complexity: <strong>O(1)</strong></li>
+</ul>
+<h3 id="2-non-comparison-based-sorting"><strong>2. Non-Comparison-Based Sorting</strong></h3>
+<p>These algorithms do not compare elements directly.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/dsa/array/">Read more</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/cyber-security/my-road-map-for-cyber-security/">My Road map for cyber security</a>
+        </h2>
+
+        <div class="post-meta"><time class="post-date">2025-01-26</time><span class="post-author">Swayam</span></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber/">cyber</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h2 id="month-1-3-foundations">Month 1-3: Foundations</h2>
+<h3 id="networking-fundamentals">Networking Fundamentals</h3>
+<ul>
+<li>Learn TCP/IP, OSI model, and common protocols</li>
+<li>Study network topologies and architecture</li>
+<li>Practice with tools like Wireshark for packet analysis</li>
+</ul>
+<h3 id="linux-essentials">Linux Essentials</h3>
+<ul>
+<li>Install a Linux distribution (e.g., Ubuntu or Kali Linux)</li>
+<li>Master basic command-line operations</li>
+<li>Learn file system structure and permissions</li>
+</ul>
+<h3 id="programming-basics">Programming Basics</h3>
+<ul>
+<li>Start with Python for cybersecurity</li>
+<li>Learn basic scripting for automation</li>
+<li>Practice with simple security-related coding projects</li>
+</ul>
+<h2 id="month-4-6-core-security-concepts">Month 4-6: Core Security Concepts</h2>
+<h3 id="information-security-principles">Information Security Principles</h3>
+<ul>
+<li>Study CIA triad (Confidentiality, Integrity, Availability)</li>
+<li>Learn about access control models and authentication methods</li>
+<li>Understand basic cryptography concepts</li>
+</ul>
+<h3 id="web-application-security">Web Application Security</h3>
+<ul>
+<li>Learn common web vulnerabilities (e.g., OWASP Top 10)</li>
+<li>Practice identifying and exploiting basic web app flaws</li>
+<li>Study secure coding practices</li>
+</ul>
+<h3 id="network-security">Network Security</h3>
+<ul>
+<li>Understand firewalls, IDS/IPS, and VPNs</li>
+<li>Learn about common network attacks and defenses</li>
+<li>Practice configuring basic network security tools</li>
+</ul>
+<h2 id="month-7-9-specialization-and-practical-skills">Month 7-9: Specialization and Practical Skills</h2>
+<h3 id="ethical-hacking-basics">Ethical Hacking Basics</h3>
+<ul>
+<li>Study penetration testing methodologies</li>
+<li>Learn about reconnaissance and scanning techniques</li>
+<li>Practice with vulnerable virtual machines (e.g., DVWA, Metasploitable)</li>
+</ul>
+<h3 id="incident-response-and-forensics">Incident Response and Forensics</h3>
+<ul>
+<li>Understand the incident response lifecycle</li>
+<li>Learn basic digital forensics techniques</li>
+<li>Practice with forensic tools like Autopsy or EnCase</li>
+</ul>
+<h3 id="cloud-security">Cloud Security</h3>
+<ul>
+<li>Study cloud service models (IaaS, PaaS, SaaS)</li>
+<li>Learn about shared responsibility models</li>
+<li>Practice securing cloud environments (e.g., AWS, Azure)</li>
+</ul>
+<h2 id="month-10-12-advanced-topics-and-career-preparation">Month 10-12: Advanced Topics and Career Preparation</h2>
+<h3 id="threat-intelligence">Threat Intelligence</h3>
+<ul>
+<li>Learn about threat actors and their motivations</li>
+<li>Study threat intelligence platforms and feeds</li>
+<li>Practice creating threat intelligence reports</li>
+</ul>
+<h3 id="governance-risk-and-compliance">Governance, Risk, and Compliance</h3>
+<ul>
+<li>Understand common security frameworks (e.g., NIST, ISO 27001)</li>
+<li>Learn about risk assessment methodologies</li>
+<li>Study relevant regulations (e.g., GDPR, HIPAA)</li>
+</ul>
+<h3 id="career-development">Career Development</h3>
+<ul>
+<li>Build a professional network (join cybersecurity communities, attend webinars)</li>
+<li>Create a portfolio of projects and write-ups</li>
+<li>Prepare for entry-level cybersecurity certifications (e.g., CompTIA Security+)</li>
+</ul>
+<p>Throughout the year:</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/cyber-security/my-road-map-for-cyber-security/">Read more</a>
           </div>
         
       </article>
@@ -318,89 +514,6 @@
         
           <div>
             <a class="read-more button inline" href="/posts/cyber-security/cyber-security/">Read more</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/advent-of-code/day-2-advent-of-code/">Day 2 Advent of Code</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2024-12-09</time><span class="post-author">Swayam</span></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/advent_of_code/">Advent_of_code</a>&nbsp;
-            
-            #<a href="/tags/code/">code</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="day-2-red-nosed-reports">Day 2: Red-Nosed Reports</h1>
-<p>The unusual data consists of many <em>reports</em>, one report per line. Each report is a list of numbers called <em>levels</em> that are separated by spaces. For example:</p>
-<pre tabindex="0"><code>7 6 4 2 1
-1 2 7 8 9
-9 7 6 2 1
-1 3 2 4 5
-8 6 4 4 1
-1 3 6 7 9
-</code></pre><p>This example data contains six reports each containing five levels.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/advent-of-code/day-2-advent-of-code/">Read more</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/advent-of-code/day-1-advent-of-code/">Day 1 Advent of Code</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2024-12-08</time><span class="post-author">Swayam</span></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/advent_of_code/">Advent_of_code</a>&nbsp;
-            
-            #<a href="/tags/code/">code</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="day-1">Day 1</h1>
-<p>There&rsquo;s just one problem: by holding the two lists up <em>side by side</em> (your puzzle input), it quickly becomes clear that the lists aren&rsquo;t very similar. Maybe you can help The Historians reconcile their lists?</p>
-<p>For example:</p>
-<pre tabindex="0"><code>3   4
-4   3
-2   5
-1   3
-3   9
-3   3
-</code></pre><p>Maybe the lists are only off by a small amount! To find out, pair up the numbers and measure how far apart they are. Pair up the <em>smallest number in the left list</em> with the <em>smallest number in the right list</em>, then the <em>second-smallest left number</em> with the <em>second-smallest right number</em>, and so on.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/advent-of-code/day-1-advent-of-code/">Read more</a>
           </div>
         
       </article>

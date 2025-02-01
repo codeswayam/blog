@@ -8,11 +8,11 @@
     <language>en</language>
     <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>DSA</title>
-      <link>/posts/dsa/</link>
+      <title>Basic Overview of DSA</title>
+      <link>/posts/dsa/basic-overview-of-dsa/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/posts/dsa/</guid>
+      <guid>/posts/dsa/basic-overview-of-dsa/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Arrays&lt;/strong&gt;: Linear data structure with a fixed size, allowing random access to elements.&lt;/p&gt;
@@ -20,9 +20,10 @@
 &lt;li&gt;Best for: Static datasets with frequent element access.&lt;/li&gt;
 &lt;li&gt;Complexity:
 &lt;ul&gt;
-&lt;li&gt;Access: O(1)O(1)O(1)&lt;/li&gt;
-&lt;li&gt;Search: O(n)O(n)O(n)&lt;/li&gt;
-&lt;li&gt;Insertion/Deletion: O(n)O(n)O(n)&lt;/li&gt;
+&lt;li&gt;Access: O(1)&lt;/li&gt;
+&lt;li&gt;Search: O(n)&lt;/li&gt;
+&lt;li&gt;Insertion/Deletion: O(n)
+&lt;a href=&#34;/posts/dsa/array/&#34;&gt;Array&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -34,14 +35,14 @@
 &lt;li&gt;Best for: Dynamic datasets with frequent insertions/deletions.&lt;/li&gt;
 &lt;li&gt;Complexity:
 &lt;ul&gt;
-&lt;li&gt;Access/Search: O(n)O(n)O(n)&lt;/li&gt;
-&lt;li&gt;Insertion/Deletion: O(1)O(1)O(1) (at head/tail with pointer)&lt;/li&gt;
+&lt;li&gt;Access/Search: O(n)&lt;/li&gt;
+&lt;li&gt;Insertion/Deletion: O(1) (at head/tail with pointer)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;HashMaps (or Hash Tables)&lt;/strong&gt;: Key-value pair storage with a hash function.&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Hash Maps (or Hash Tables)&lt;/strong&gt;: Key-value pair storage with a hash function.&lt;/p&gt;</description>
       <content>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Arrays&lt;/strong&gt;: Linear data structure with a fixed size, allowing random access to elements.&lt;/p&gt;
@@ -49,9 +50,10 @@
 &lt;li&gt;Best for: Static datasets with frequent element access.&lt;/li&gt;
 &lt;li&gt;Complexity:
 &lt;ul&gt;
-&lt;li&gt;Access: O(1)O(1)O(1)&lt;/li&gt;
-&lt;li&gt;Search: O(n)O(n)O(n)&lt;/li&gt;
-&lt;li&gt;Insertion/Deletion: O(n)O(n)O(n)&lt;/li&gt;
+&lt;li&gt;Access: O(1)&lt;/li&gt;
+&lt;li&gt;Search: O(n)&lt;/li&gt;
+&lt;li&gt;Insertion/Deletion: O(n)
+&lt;a href=&#34;/posts/dsa/array/&#34;&gt;Array&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -63,20 +65,20 @@
 &lt;li&gt;Best for: Dynamic datasets with frequent insertions/deletions.&lt;/li&gt;
 &lt;li&gt;Complexity:
 &lt;ul&gt;
-&lt;li&gt;Access/Search: O(n)O(n)O(n)&lt;/li&gt;
-&lt;li&gt;Insertion/Deletion: O(1)O(1)O(1) (at head/tail with pointer)&lt;/li&gt;
+&lt;li&gt;Access/Search: O(n)&lt;/li&gt;
+&lt;li&gt;Insertion/Deletion: O(1) (at head/tail with pointer)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;HashMaps (or Hash Tables)&lt;/strong&gt;: Key-value pair storage with a hash function.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hash Maps (or Hash Tables)&lt;/strong&gt;: Key-value pair storage with a hash function.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Best for: Quick lookup and insertion.&lt;/li&gt;
 &lt;li&gt;Complexity:
 &lt;ul&gt;
-&lt;li&gt;Average: O(1)O(1)O(1)&lt;/li&gt;
-&lt;li&gt;Worst-case: O(n)O(n)O(n) (due to hash collisions)&lt;/li&gt;
+&lt;li&gt;Average: O(1)&lt;/li&gt;
+&lt;li&gt;Worst-case: O(n)(due to hash collisions)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -88,7 +90,7 @@
 &lt;li&gt;Best for: Recursive problems, expression evaluation.&lt;/li&gt;
 &lt;li&gt;Complexity:
 &lt;ul&gt;
-&lt;li&gt;Push/Pop/Peek: O(1)O(1)O(1)&lt;/li&gt;
+&lt;li&gt;Push/Pop/Peek: O(1)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -100,7 +102,7 @@
 &lt;li&gt;Best for: Scheduling, buffering.&lt;/li&gt;
 &lt;li&gt;Complexity:
 &lt;ul&gt;
-&lt;li&gt;Enqueue/Dequeue: O(1)O(1)O(1)&lt;/li&gt;
+&lt;li&gt;Enqueue/Dequeue: O(1)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -112,8 +114,8 @@
 &lt;li&gt;Best for: Hierarchical data, searching/sorting.&lt;/li&gt;
 &lt;li&gt;Complexity:
 &lt;ul&gt;
-&lt;li&gt;Search/Insert/Delete: O(h)O(h)O(h), where hhh is the tree height.&lt;/li&gt;
-&lt;li&gt;Balanced trees maintain h=O(log⁡n)h = O(\log n)h=O(logn).&lt;/li&gt;
+&lt;li&gt;Search/Insert/Delete: O(h), where h is the tree height.&lt;/li&gt;
+&lt;li&gt;Balanced trees maintain h=O(logn).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   
-    <title>Advent_of_code :: Swayam Blog</title>
+    <title>Array :: Swayam Blog</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="/tags/advent_of_code/" />
+<link rel="canonical" href="/tags/array/" />
 
 
 
@@ -80,9 +80,9 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Advent_of_code">
+<meta property="og:title" content="Array">
 <meta property="og:description" content="" />
-<meta property="og:url" content="/tags/advent_of_code/" />
+<meta property="og:url" content="/tags/array/" />
 <meta property="og:site_name" content="Swayam Blog" />
 
   <meta property="og:image" content="/og-image.png">
@@ -94,7 +94,7 @@
 
 
 
-  <link href="/tags/advent_of_code/index.xml" rel="alternate" type="application/rss+xml" title="Swayam Blog" />
+  <link href="/tags/array/index.xml" rel="alternate" type="application/rss+xml" title="Swayam Blog" />
 
 
 
@@ -174,22 +174,22 @@
 
   <div class="content">
     
-  <h1>Posts for: #Advent_of_code</h1>
+  <h1>Posts for: #Array</h1>
   
   <div class="posts">
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/advent-of-code/day-2-advent-of-code/">Day 2 Advent of Code</a>
+          <a href="/posts/dsa/array/">Array</a>
         </h1>
-        <div class="post-meta"><time class="post-date">2024-12-09</time><span class="post-author">Swayam</span></div>
+        <div class="post-meta"><time class="post-date">2025-02-01</time><span class="post-author">Swayam</span></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/advent_of_code/">Advent_of_code</a>&nbsp;
+            #<a href="/tags/dsa/">DSA</a>&nbsp;
             
-            #<a href="/tags/code/">code</a>&nbsp;
+            #<a href="/tags/array/">array</a>&nbsp;
             
           </span>
         
@@ -199,94 +199,60 @@
 
         <div class="post-content">
           
-            <h1 id="day-2-red-nosed-reports">Day 2: Red-Nosed Reports</h1>
-<p>The unusual data consists of many <em>reports</em>, one report per line. Each report is a list of numbers called <em>levels</em> that are separated by spaces. For example:</p>
-<pre tabindex="0"><code>7 6 4 2 1
-1 2 7 8 9
-9 7 6 2 1
-1 3 2 4 5
-8 6 4 4 1
-1 3 6 7 9
-</code></pre><p>This example data contains six reports each containing five levels.</p>
+            <h2 id="sort">Sort</h2>
+<h3 id="1-comparison-based-sorting"><strong>1. Comparison-Based Sorting</strong></h3>
+<p>These algorithms compare elements to determine their order.</p>
+<h4 id="a-bubble-sort"><strong>a. Bubble Sort</strong></h4>
+<ul>
+<li>Repeatedly swaps adjacent elements if they are in the wrong order.</li>
+<li>Time Complexity: <strong>O(n²)</strong></li>
+<li>Space Complexity: <strong>O(1)</strong></li>
+</ul>
+<h4 id="b-selection-sort"><strong>b. Selection Sort</strong></h4>
+<ul>
+<li>Finds the smallest element and places it in the correct position.</li>
+<li>Time Complexity: <strong>O(n²)</strong></li>
+<li>Space Complexity: <strong>O(1)</strong></li>
+</ul>
+<h4 id="c-insertion-sort"><strong>c. Insertion Sort</strong></h4>
+<ul>
+<li>Picks one element at a time and places it in its correct position.</li>
+<li>Time Complexity: <strong>O(n²)</strong></li>
+<li>Space Complexity: <strong>O(1)</strong></li>
+<li>Efficient for small or nearly sorted data.</li>
+</ul>
+<h4 id="d-merge-sort-divide-and-conquer"><strong>d. Merge Sort</strong> (Divide and Conquer)</h4>
+<ul>
+<li>Divides the array into halves, sorts them, and merges them.</li>
+<li>Time Complexity: <strong>O(n log n)</strong></li>
+<li>Space Complexity: <strong>O(n)</strong></li>
+</ul>
+<h4 id="e-quick-sort-divide-and-conquer"><strong>e. Quick Sort</strong> (Divide and Conquer)</h4>
+<ul>
+<li>Picks a pivot, partitions the array, and sorts recursively.</li>
+<li>Time Complexity: <strong>O(n log n)</strong> (Best &amp; Avg), <strong>O(n²)</strong> (Worst)</li>
+<li>Space Complexity: <strong>O(log n)</strong> (due to recursion)</li>
+</ul>
+<h4 id="f-heap-sort"><strong>f. Heap Sort</strong></h4>
+<ul>
+<li>Converts the array into a heap and extracts elements in order.</li>
+<li>Time Complexity: <strong>O(n log n)</strong></li>
+<li>Space Complexity: <strong>O(1)</strong></li>
+</ul>
+<h4 id="g-shell-sort"><strong>g. Shell Sort</strong></h4>
+<ul>
+<li>Variation of insertion sort that sorts elements at a gap.</li>
+<li>Time Complexity: <strong>O(n log n)</strong> (Best), <strong>O(n²)</strong> (Worst)</li>
+<li>Space Complexity: <strong>O(1)</strong></li>
+</ul>
+<h3 id="2-non-comparison-based-sorting"><strong>2. Non-Comparison-Based Sorting</strong></h3>
+<p>These algorithms do not compare elements directly.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/advent-of-code/day-2-advent-of-code/">Read more</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/advent-of-code/">_index</a>
-        </h1>
-        <div class="post-meta"><time class="post-date">2024-12-08</time><span class="post-author">Swayam</span></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/code/">code</a>&nbsp;
-            
-            #<a href="/tags/advent_of_code/">Advent_of_code</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="hi-lets-start-advent-of-code">Hi lets start Advent of code</h1>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/advent-of-code/">Read more</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/advent-of-code/day-1-advent-of-code/">Day 1 Advent of Code</a>
-        </h1>
-        <div class="post-meta"><time class="post-date">2024-12-08</time><span class="post-author">Swayam</span></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/advent_of_code/">Advent_of_code</a>&nbsp;
-            
-            #<a href="/tags/code/">code</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="day-1">Day 1</h1>
-<p>There&rsquo;s just one problem: by holding the two lists up <em>side by side</em> (your puzzle input), it quickly becomes clear that the lists aren&rsquo;t very similar. Maybe you can help The Historians reconcile their lists?</p>
-<p>For example:</p>
-<pre tabindex="0"><code>3   4
-4   3
-2   5
-1   3
-3   9
-3   3
-</code></pre><p>Maybe the lists are only off by a small amount! To find out, pair up the numbers and measure how far apart they are. Pair up the <em>smallest number in the left list</em> with the <em>smallest number in the right list</em>, then the <em>second-smallest left number</em> with the <em>second-smallest right number</em>, and so on.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/advent-of-code/day-1-advent-of-code/">Read more</a>
+            <a class="read-more button inline" href="/posts/dsa/array/">Read more</a>
           </div>
         
       </article>
