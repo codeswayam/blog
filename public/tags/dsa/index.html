@@ -5,6 +5,11 @@
     <title>DSA :: Swayam Blog</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" 
+        onload="renderMathInElement(document.body);"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="" />
 <meta name="keywords" content="" />
@@ -241,6 +246,130 @@
     
       <article class="post on-list">
         <h1 class="post-title">
+          <a href="/posts/dsa/array/array/">Array</a>
+        </h1>
+        <div class="post-meta"><time class="post-date">2025-02-02</time><span class="post-author">Swayam</span></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/dsa/">DSA</a>&nbsp;
+            
+            #<a href="/tags/array/">array</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h3 id="1-sorting-algorithms"><strong>1. Sorting Algorithms</strong></h3>
+<p>Sorting arranges elements in a specific order (ascending or descending).</p>
+<ul>
+<li><strong>Bubble Sort</strong> – Repeatedly swaps adjacent elements if they are in the wrong order.</li>
+<li><strong>Selection Sort</strong> – Selects the smallest/largest element and places it in order.</li>
+<li><strong>Insertion Sort</strong> – Builds the sorted array one element at a time.</li>
+<li><strong>Merge Sort</strong> – Uses the divide-and-conquer technique to sort.</li>
+<li><strong>Quick Sort</strong> – Selects a pivot and partitions elements around it.</li>
+<li><strong>Heap Sort</strong> – Uses a binary heap to sort efficiently.</li>
+<li><strong>Radix Sort</strong> – Sorts numbers digit by digit.</li>
+<li><strong>Counting Sort</strong> – Counts occurrences of elements (used for small range values).</li>
+<li><a href="/posts/dsa/array/sorting/">Sorting</a></li>
+</ul>
+<hr>
+<h3 id="2-searching-algorithms"><strong>2. Searching Algorithms</strong></h3>
+<p>Used to find an element in an array.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/dsa/array/array/">Read more</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/dsa/array/searching/">Searching</a>
+        </h1>
+        <div class="post-meta"><time class="post-date">2025-02-02</time><span class="post-author">Swayam</span></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/dsa/">DSA</a>&nbsp;
+            
+            #<a href="/tags/array/">array</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h3 id="1-linear-search"><strong>1. Linear Search</strong></h3>
+<ul>
+<li><strong>Approach:</strong> Sequentially checks each element in the array.</li>
+<li><strong>Time Complexity:</strong>
+<ul>
+<li>Best: <strong>O(1)</strong></li>
+<li>Worst: <strong>O(n)</strong></li>
+<li>Average: <strong>O(n)</strong></li>
+</ul>
+</li>
+<li><strong>Space Complexity:</strong> <strong>O(1)</strong></li>
+</ul>
+<h3 id="2-binary-search-for-sorted-arrays-only"><strong>2. Binary Search (For Sorted Arrays Only)</strong></h3>
+<ul>
+<li><strong>Approach:</strong> Repeatedly divides the array in half and searches in the relevant half.</li>
+<li><strong>Time Complexity:</strong>
+<ul>
+<li>Best: <strong>O(1)</strong></li>
+<li>Worst: <strong>O(log n)</strong></li>
+<li>Average: <strong>O(log n)</strong></li>
+</ul>
+</li>
+<li><strong>Space Complexity:</strong>
+<ul>
+<li><strong>O(1)</strong> (Iterative)</li>
+<li><strong>O(log n)</strong> (Recursive, due to function call stack)</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-jump-search-for-sorted-arrays"><strong>3. Jump Search (For Sorted Arrays)</strong></h3>
+<ul>
+<li><strong>Approach:</strong> Jumps ahead by a block size (√n) and does a linear search within that block.</li>
+<li><strong>Time Complexity:</strong>
+<ul>
+<li>Best: <strong>O(1)</strong></li>
+<li>Worst: <strong>O(√n)</strong></li>
+<li>Average: <strong>O(√n)</strong></li>
+</ul>
+</li>
+<li><strong>Space Complexity:</strong> <strong>O(1)</strong></li>
+</ul>
+<h3 id="4-interpolation-search-for-uniformly-distributed-sorted-data"><strong>4. Interpolation Search (For Uniformly Distributed Sorted Data)</strong></h3>
+<p><strong>Approach:</strong> Uses the formula to estimate the probable position of the target.
+$$
+pos=left+ \frac {(target−arr[left])×(right−left)}{(arr[right]−arr[left])}​
+$$</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/dsa/array/searching/">Read more</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
           <a href="/posts/dsa/">_index</a>
         </h1>
         <div class="post-meta"><time class="post-date">2025-02-01</time><span class="post-author">Swayam</span></div>
@@ -271,7 +400,7 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/dsa/array/">Array</a>
+          <a href="/posts/dsa/array/sorting/">Sorting</a>
         </h1>
         <div class="post-meta"><time class="post-date">2025-02-01</time><span class="post-author">Swayam</span></div>
 
@@ -343,7 +472,7 @@
 
         
           <div>
-            <a class="read-more button inline" href="/posts/dsa/array/">Read more</a>
+            <a class="read-more button inline" href="/posts/dsa/array/sorting/">Read more</a>
           </div>
         
       </article>

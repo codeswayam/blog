@@ -5,10 +5,19 @@
     <loc>/posts/dsa/basic-overview-of-dsa/</loc>
     <lastmod>2025-01-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/posts/dsa/array/</loc>
+    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/dsa/array/array/</loc>
+    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/dsa/array/searching/</loc>
+    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/posts/dsa/</loc>
     <lastmod>2025-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/dsa/array/</loc>
+    <loc>/posts/dsa/array/sorting/</loc>
     <lastmod>2025-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/cyber-security/my-road-map-for-cyber-security/</loc>
@@ -20,32 +29,23 @@
     <loc>/posts/cyber-security/cyber-security/</loc>
     <lastmod>2024-12-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/advent-of-code/day-2-advent-of-code/</loc>
-    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/advent-of-code/</loc>
-    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/advent-of-code/day-1-advent-of-code/</loc>
-    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/posts/my-first-blog/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/array/</loc>
-    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/dsa/</loc>
-    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/cyber/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
@@ -58,9 +58,6 @@
   </url><url>
     <loc>/tags/network/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/advent_of_code/</loc>
-    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/myself/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
